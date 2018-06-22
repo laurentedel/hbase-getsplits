@@ -8,7 +8,7 @@ If you want to split a HBase table region, you need to specify the split key, wh
 I usually export the jar from Eclipse, copy the jar on your server.
 
 ```
-$ export HBASE_CLASSPATH=${HBASE_CLASSPATH}:./hbase-getmidpoint.jar
+$ export HBASE_CLASSPATH=${HBASE_CLASSPATH}:./hbase-getsplits-0.1-SNAPSHOT.jar
 $ hbase com.ledel.hbase.GetMidPoint TABLE [COLUMNFAMILY]
 ```
 
